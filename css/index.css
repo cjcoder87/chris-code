@@ -1,0 +1,142 @@
+header{
+  width: 100vw;
+  height: 125px;
+  background-color:#B21641;
+  position: relative;
+  box-shadow: 3px 4px 3px rgba(0,0,0,.5);
+
+}
+
+h1{
+  position: absolute;
+  left: 5px;
+  bottom:10px;
+  margin: 10px 10px;
+  color: white;
+}
+a:focus, a:hover {
+  color: #23527c;
+  text-decoration: none;
+}
+nav ul{
+  position: absolute;
+  right: 20px;
+  bottom: 7px;
+}
+nav ul li{
+  margin:5px 10px;
+}
+nav ul li a{
+  color: white;
+  font-size: 22px;
+
+}
+html{
+  height: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body{
+  background-color: #E5F5F9;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  overflow-x: hidden;
+ 
+}
+
+
+
+/* Caroussel Styling */
+
+#myCarousel{
+  /* border: solid 2px black; */
+  box-shadow: 3px 4px 3px rgba(0,0,0,.5);
+  border-radius: 5px;
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#myCarousel img{
+height: 300px;
+width: 100vw;
+border-radius: 5px;
+
+}
+
+h2{
+  color: brown;
+  text-align: center;
+  font-family: cursive;
+}
+
+/* Ice Cream PIcs Area Formatting */
+
+
+  .icecreamContainer, .icecreamContainer2  {
+    width: 100vw;
+    background-color: pink;
+    margin: 15px 0;
+   
+  }
+  
+  .icecreamContainer > img, .icecreamContainer2 > img {
+    background-color: #f1f1f1;
+    margin: 15px 0;
+    padding: 15px 0;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .icecreamContainer, .icecreamContainer2{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .icecreamContainer2 > img{
+    width: 125px;
+    margin-left: 10px;
+    margin-top: 25px;
+  }
+
+  .icecreamContainer img{
+    width: 100%;
+    
+  }
+  
+  .icecreamContainer2 > img:first-of-type{
+    margin-left: 15%;
+  }
+ 
+
+footer{
+  position: absolute;
+  margin-top: 20px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  width: 100vw;
+  background-color:#B21641;
+  height: 125px;
+  box-shadow: 4px -2px 3px rgba(0,0,0,.5);
+}
+
+
+
+#copyright{
+  position: absolute;
+  left: 5px;
+  bottom: 10px;
+  color: white;
+}
