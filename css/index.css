@@ -20,11 +20,12 @@ a:focus, a:hover {
 }
 nav ul{
   position: absolute;
-  right: 20px;
+  right: 25px;
   bottom: 7px;
 }
 nav ul li{
   margin:5px 10px;
+  display: inline-block;
 }
 nav ul li a{
   color: white;
