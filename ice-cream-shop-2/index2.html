@@ -5,14 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Ice Cream Shop</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
   <link rel="stylesheet" href="styles/index.css">
 </head>
-<body>
+<body class="container-fluid">
 
-    <header>
-        <h1>Ice Cream Shop 2</h1>
-        <nav>
-          <ul>
+    <header class="row jumbotron">
+        <h1 class="col-sm-4">Ice Cream Shop 2</h1>
+        <nav class="col-sm-7">
+          <ul class="nav navbar-nav">
             <li> <a href="index2.html">Home</a> </li>
             <li> <a href="flavors.html">Flavors</a> </li>
             <li><a href="location.html">Locations</a></li>
@@ -21,28 +23,33 @@
         </nav>
       </header>
 <main>
-    <section>
+    <section class="row">
       <h2>Ice Cream Trys of the week</h2>
-        <figure>
-          <img src="../img/ice1.jpg" title="Oreo Ice Cream" alt="Oreo Ice Cream">
+        <figure class="col-sm-4">
+          <img src="../img/ice1.jpg" title="Oreo Ice Cream" alt="Oreo Ice Cream" class="img-responsive">
           <figcaption>It is late spring, spend your afternoon with a delicious Oreo Twist.
 
           </figcaption>
+          
         </figure>
-        <figure>
-            <img src="../img/ice2.jpg" alt="Ice Cream Samples">
+        <figure class="col-sm-4">
+            <img src="../img/ice2.jpg" alt="Ice Cream Samples" class="img-responsive">
           <figcaption></figcaption>
             
           </figure>
-          <figure>
-              <img src="../img/ice3.jpg" alt="Ice Cream for 2">
+
+        
+
+       
+          <figure class="col-sm-4">
+              <img src="../img/ice3.jpg" alt="Ice Cream for 2" class="img-responsive">
           <figcaption></figcaption>
               
             </figure>
       </section>
 
-      <section>
-        <article>
+      <section class="row">
+        <article class="col-sm-6">
           <header><h3>Ice cream makes you happy</h3></header>
           <section>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis similique deleniti sit delectus reiciendis voluptates nobis maiores, ab doloribus natus eaque, totam adipisci esse dolore odio voluptas, aliquam laborum laboriosam.</p>
@@ -52,7 +59,7 @@
           <footer><span>written by people</span></footer>
         </article>
 
-        <article>
+        <article class="col-sm-6">
             <header><h3>Free Wifi</h3></header>
             <section>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem nulla neque animi eveniet quia repudiandae laudantium ex aut accusantium id! Suscipit, autem quae recusandae facere nihil natus. Cum, molestiae natus.</p>
@@ -64,9 +71,9 @@
 
       </section>
     </main>
-    <footer>
-        <nav>
-            <ul>
+    <footer class="row">
+        <nav class="col-sm-6 col-sm-offset-3">
+            <ul class="nav navbar-nav">
               <li> <a href="https://www.facebook.com" target="_blank">Facebook</a> </li>
               <li> <a href="#">Site Map</a></li>
               <li> <a href="contact-us.html">Contact Us</a></li>
